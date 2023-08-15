@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.odd {
+    background-color: #ffc4d8;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: #353585;
+    font-size: 36px;
+}
+
+.adjusted-font-size {
+    font-size: 24px;
+}
+
+#fourth {
+    background-color: #89cc6a;
+    font-weight: 700;
+}

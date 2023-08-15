@@ -1,0 +1,17 @@
+.glasses,
+.surprised {
+    width: 300px;
+    height: 300px;
+}
+
+.avatar.glasses {
+    width: 400px;
+    height: 400px;
+}
+
+.avatar.surprised {
+    width: 200px;
+    height: 400px;
+}
+
+/* Chaining selector is used to point out a particular class or id among same classes.  */

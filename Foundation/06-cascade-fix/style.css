@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para,
+.small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+}
+
+/* .small-para {
+    font-size: 14px;
+} 
+
+Place it after .para {}, is another solution, taking advantage of the rule order since both selectors have the same specificity.
+
+Following solution is just creating higher specificity using chaining selectors...
+*/
+.para.small-para {
+    font-size: 14px;
+}
+
+.para {
+    font-size: 22px;
+}
+
+/* .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+} 
+Following solution we take Id since it has higher specificity than class:
+*/
+#confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+} 
+
+Following is not chaining selector, it's the child selsctor
+*/
+.text .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+}
+
+div.text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+}

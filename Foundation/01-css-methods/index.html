@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Methods</title>
+    <!-- Extrnal CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Internal CSS -->
+    <style>
+        .internal {
+            background: green;
+            /* "background" is the short hand property taht allows you to set all the background properties including the "background-color" */
+            /* background: #f9f9f9 url(background-image.jpg) repeat-y right top; */
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="example">Style me via the external method!
+    </div>
+
+    <p class="internal">I would like to be styled with internal method, please.</p>
+
+    <!-- Inline CSS -->
+    <div style="text-align: center;">
+        <button style="background-color: orange; text-align: center; font-size: 18px;">Inline method</button>
+    </div>
+
+</body>
+
+</html>

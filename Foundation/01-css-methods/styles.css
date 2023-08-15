@@ -1,0 +1,12 @@
+.example {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    margin: 20px 0 10px 0;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    /* Equivalent to:
+    font-weight: bold; */
+}
